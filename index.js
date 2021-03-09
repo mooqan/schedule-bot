@@ -8,7 +8,7 @@ async function start() {
         setCommands();
         await runBot();
     } catch(error) {
-        console.log('Oshibka: ', error);
+        console.log('Ошибка: ', error);
     }
 }
 start();
